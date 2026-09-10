@@ -10,8 +10,7 @@ public class Email {
     }
     @Override
     public String toString() {
-        return "Sendind from: "+from+
-                "\nto: "+to+"\nTheme: "+subject+"\nMessage: "+body;
+        return "{\"from\": \""+from+"\",\"to\": \""+ to+"\",\"subject\":\""+subject+"\",\"body\":\""+body+"\"}";
     }
 }
 
